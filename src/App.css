@@ -27,3 +27,15 @@
 .App-link {
   color: #61dafb;
 }
+
+.linkpdf {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #530404;
+}
+
+.linkpdf:hover {
+  color: #000;
+  transition: ease-in-out 0.3s;
+}
