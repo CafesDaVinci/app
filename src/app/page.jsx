@@ -7,6 +7,8 @@ import desde from "../../public/1930.png";
 import { motion } from "framer-motion";
 import Paixao from "./components/Paixao";
 import Produtos from "./components/Produtos";
+import Modal from "./components/Modal";
+
 export default function Home() {
   return (
     <div>
@@ -55,6 +57,7 @@ export default function Home() {
       </div>
       <Paixao />
       <Produtos />
+      <Modal />
     </div>
   );
 }
