@@ -15,7 +15,7 @@ function Modal() {
           <span className="close" onClick={closeModal}>
             &times;
           </span>
-          <p>Esse site está em contrução. Qualquer elemento nele ou procedimento de compra não será registrado ou processado. As informações contidas nele até o lançamento são apenas para testes da plataforma. Agradecemos a compreensão!</p>
+          <p>Esse site está em construção. Qualquer elemento nele ou procedimento de compra não será registrado ou processado. As informações contidas nele até o lançamento são apenas para testes da plataforma. Agradecemos a compreensão!</p>
         </div>
       </div>
     )
