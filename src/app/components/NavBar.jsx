@@ -25,12 +25,12 @@ export default function NavBar() {
         <div className=" flex items-center justify-center space-x-5 w-96">
           <CustonLink link="/" title="Início" />
           <CustonLink link="/quem-somos" title="Quem Somos" />
-          <CustonLink link="/produtos" title="Produtos" />
+          <CustonLink link="/" title="Produtos" />
         </div>
         <Link href="/">
           <Image
             src={logo}
-            alt="logo cafeteria Davinci"
+            alt="Cafés Da Vinci"
             className="hidden md:block mx-20 w-auto h-44 drop-shadow-drop1"
           />
         </Link>
@@ -38,10 +38,10 @@ export default function NavBar() {
           <CustonLink link="/" title="Clube do Café" />
           <CustonLink link="/" title="Contato" />
           <div className="flex gap-5">
-            <Link href="#" className="transition-all duration-300 hover:text-secondary">
+            <Link href="https://instagram.com/cafesdavinci" target="_blank" className="transition-all duration-300 hover:text-secondary">
               <FontAwesomeIcon icon={faInstagram} className="h-7" />
             </Link>
-            <Link href="#" className="transition-all duration-300 hover:text-secondary">
+            <Link href="https://facebook.com/cafesdavinci" target="_blank" className="transition-all duration-300 hover:text-secondary">
               <FontAwesomeIcon icon={faFacebook} className="h-7" />
             </Link>
           </div>

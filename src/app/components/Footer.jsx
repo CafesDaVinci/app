@@ -53,10 +53,10 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="h-28 w-64 flex items-center justify-center gap-5 py-7 px-10">
-                    <Link href="#" className="transition-all duration-300 hover:text-secondary">
+                    <Link href="https://instagram.com/cafesdavinci" target="_blank" className="transition-all duration-300 hover:text-secondary">
                         <FontAwesomeIcon icon={faInstagram} className="h-7" />
                     </Link>
-                    <Link href="#" className="transition-all duration-300 hover:text-secondary">
+                    <Link href="https://facebook.com/cafesdavinci" target="_blank" className="transition-all duration-300 hover:text-secondary">
                         <FontAwesomeIcon icon={faFacebook} className="h-7" />
                     </Link>
                 </div>
@@ -66,7 +66,7 @@ export default function Footer() {
                 className="h-28 w-auto my-2"
                 />
                 <p className="text-xs px-5">
-                    Café da Vinci - CNPJ: 000000000000 Todos os Direitos Reservados, {ano}
+                    Cafés da Vinci - CNPJ: 000000000000 Todos os Direitos Reservados, {ano}
                 </p>
                 <div className="flex">
                     <p className="text-sm">Developed by &nbsp; </p>{' '}

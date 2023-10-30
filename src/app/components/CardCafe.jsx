@@ -52,7 +52,7 @@ export default function CardCafe({ foto, titulo, preco,ratings }) {
           <StarRating rating={averageRating} />
           <p className="text-lg">R${preco}</p>
           <button className="bg-text text-primary py-4 px-8 font-bebas mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 ">
-            Adicioar ao Carrinho
+            Adicionar ao Carrinho
           </button>
         </div>
       </motion.div>
