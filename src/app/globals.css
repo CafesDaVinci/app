@@ -31,7 +31,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
@@ -45,6 +45,11 @@ html {
   padding: 20px;
   border-radius: 5px;
   position: relative;
+}
+
+.modal-content p {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .close {
